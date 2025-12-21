@@ -23,7 +23,6 @@ int trap(int* heights , int n){
         traped_water += current_water;
        }
     }
-
     return traped_water;
 }
 
