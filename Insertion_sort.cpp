@@ -23,9 +23,8 @@ int main(){
 
     int arr[5] = {5,4,1,3,2};
     int n = sizeof(arr)/sizeof(int);
-    
 
     insert_sort(arr,5);
 
-    return 0;
+    return 0;  
 }
