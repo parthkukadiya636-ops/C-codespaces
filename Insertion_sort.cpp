@@ -11,7 +11,7 @@ void insert_sort(int* arr, int n){
             previ--;
         }
         arr[previ+1]= curr_ele;
-    }
+    }   
 
     for(int i=0;i<n;i++){
         cout<<arr[i]<<"\t";
