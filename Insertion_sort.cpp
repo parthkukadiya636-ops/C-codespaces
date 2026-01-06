@@ -14,10 +14,9 @@ void insert_sort(int* arr, int n){
     }   
 
     for(int i=0;i<n;i++){
-        cout<<arr[i]<<"\t";
+        cout<<arr[i];
     }
 }
-
 int main(){
 
     int arr[5] = {5,4,1,3,2};
