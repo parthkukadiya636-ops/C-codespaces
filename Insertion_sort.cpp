@@ -20,8 +20,7 @@ void insert_sort(int* arr, int n){
 int main(){
 
     int arr[5] = {5,4,1,3,2};
-    int n = sizeof(arr)/sizeof(int);
-
+    int n = 5
     insert_sort(arr,5);
 
     return 0;  
